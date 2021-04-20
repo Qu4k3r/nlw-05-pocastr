@@ -16,3 +16,6 @@ export default class MyDocument extends Document {
       );
   }
 }
+
+// componente que e engloba _app e suas rotas, renderizado apenas uma vez;
+// este arquivo html nao pode ser implementado diretamente no _app, pois o _app é renderizado toda vez que a rota é alterada;
